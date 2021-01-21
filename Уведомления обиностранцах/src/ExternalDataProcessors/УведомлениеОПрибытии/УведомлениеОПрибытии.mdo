@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8119b7f-df6f-45c0-b025-4c643d8c06a3">
+  <producedTypes>
+    <objectType typeId="08143b07-1075-4a25-be19-300fad74b784" valueTypeId="b7f03d78-3885-4fc5-8c27-d87b3fcb40c0"/>
+  </producedTypes>
+  <name>УведомлениеОПрибытии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление о прибытии</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="e577b292-6d13-4d10-ac8d-16c4ed459e16"/>
+  <defaultForm>ExternalDataProcessor.УведомлениеОПрибытии.Form.Форма</defaultForm>
+  <forms uuid="f48325ca-d4bc-4ef7-b61a-fd0d866932d7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="324f37e4-0ef7-4cf2-bea6-e924a7170c61">
+    <name>УведомлениеОПрибытии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о прибытии </value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87861634-4ed9-4586-ac75-f81d52dddb8e">
+  <producedTypes>
+    <objectType typeId="9e104d0e-2fc5-4106-99ef-a147abdeba7a" valueTypeId="326b7457-b05b-429b-8498-cdef8863b9b0"/>
+  </producedTypes>
+  <name>УведомлениеОбУвольнении14XLS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление об увольнении 14  XLS</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="7a244533-cb3c-480d-96d8-eff45bcac9ef"/>
+  <defaultForm>ExternalDataProcessor.УведомлениеОбУвольнении14XLS.Form.Форма</defaultForm>
+  <forms uuid="0749a37d-df60-4856-b7cf-5562a45692f9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="97795711-a0ad-4df8-b93b-7ecce20234ad">
+    <name>МакетУведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет уведомление</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="8f93291f-ba0f-42b4-8848-ba6fe6a05811">
+    <name>Справка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

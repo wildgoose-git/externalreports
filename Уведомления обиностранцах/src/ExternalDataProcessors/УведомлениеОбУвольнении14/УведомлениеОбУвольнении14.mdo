@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc8e54a9-bcb0-4899-a140-3be44695ea00">
+  <producedTypes>
+    <objectType typeId="1153f122-dfac-423b-a23b-2847df535365" valueTypeId="4c8e122b-edb8-4a63-a1ef-7ec2f7469c4d"/>
+  </producedTypes>
+  <name>УведомлениеОбУвольнении14</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление об увольнении14</value>
+  </synonym>
+  <comment>Шаблон Word</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="a9e0bccd-7bfe-41da-b983-11e00280f458"/>
+  <defaultForm>ExternalDataProcessor.УведомлениеОбУвольнении14.Form.Форма</defaultForm>
+  <forms uuid="56407b36-2fdf-4d8d-915c-7440e9c6a026">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="879b33a5-c9ae-4b94-81f0-23f64581ccd9">
+    <name>МакетWord</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет word</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="2747a439-1c48-428e-a191-41d1fab8d8df">
+    <name>СписокПолейШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список полей шаблона</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>
